@@ -42,7 +42,7 @@
 			PuzzleSolver
 		},
 		data: () => ({
-			element: "arc"
+			element: "solar"
 		}),
 		methods: {
 			changeElement: function(newElement) {
