@@ -91,6 +91,8 @@
 					);
 				});
 
+				console.log("results", results);
+
 				// display result if a single combination matches
 				if (results.length === 1) {
 					this.room = results[0].target.room;

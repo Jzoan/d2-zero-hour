@@ -22,11 +22,6 @@
 			element: String,
 			resetToggle: Number,
 			room: String
-		},
-		watch: {
-			element: function() {
-				this.reset();
-			}
 		}
 	};
 </script>

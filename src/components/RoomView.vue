@@ -20,11 +20,6 @@
 			element: String,
 			resetToggle: Number,
 			terminal: Number
-		},
-		watch: {
-			element: function() {
-				this.reset();
-			}
 		}
 	};
 </script>
