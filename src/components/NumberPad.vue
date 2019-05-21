@@ -97,7 +97,18 @@
 			width: 100%;
 			height: 50px;
 			font-size: 17px;
-			color: #9c9c9c !important;
+		}
+
+		.v-btn {
+			.v-btn__content {
+				color: #9c9c9c;
+			}
+
+			&.v-btn--active {
+				.v-btn__content {
+					color: #dbdbdb;
+				}
+			}
 		}
 	}
 
